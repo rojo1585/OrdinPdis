@@ -1,0 +1,15 @@
+@api = https://localhost:3000/dates
+
+
+
+GET {{api}}
+
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "num": "1"
+}
+
